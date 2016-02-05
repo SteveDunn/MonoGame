@@ -37,7 +37,7 @@ Here are a few simple rules and suggestions to remember when contributing to Mon
 
 The MonoGame project is under the [Microsoft Public License](https://opensource.org/licenses/MS-PL) with the exception of a few smaller sections of code.  See the [LICENSE.txt](LICENSE.txt) file for additional details.  Third-party libraries used by MonoGame are under their own licenses Please refer to those libraries for details on the license they use.
 
-We accept contributions in "good faith" that they are your own work and not bound to any conflicting license.  By submitting a PR you are agreeing to allow us to distribute your contribution under our license and the MonoGame Team copyright.  If a contribution is found to be in violation copyright it will be immediately removed and the contributor may be banned from future collaboration in the project.
+We accept contributions in "good faith" that they are your own work and not bound to any conflicting license.  By submitting a PR you are agreeing to allow us to distribute your contribution under our license and the MonoGame Team copyright.  If a contribution is found to be in violation of copyright it will be immediately removed and the contributor may be barred from future collaboration in the project.
 
 When submitting new files you should include the following copyright and license in the header when appropriate:
 ```
