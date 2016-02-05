@@ -22,6 +22,7 @@ Here are a few simple rules and suggestions to remember when contributing to Mon
 
 * :bangbang: **NEVER** commit code that you didn't personally write.
 * :bangbang: **NEVER** use decompiler tools to steal code and submit them as your own work.
+* :bangbang: **NEVER** decompile XNA assemblies and steal Microsoft's copyrighted code.
 * **PLEASE** try keep your PRs focused on a single topic and of a reasonable size or we may ask you to break it up.
 * **DO NOT** surprise us with new APIs or big new features. Open an issue to discuss your ideas first.
 * **DO NOT** reorder type members as it makes it very difficult to compare code changes in a PR.
@@ -33,13 +34,30 @@ Here are a few simple rules and suggestions to remember when contributing to Mon
 * **PLEASE** tell others about MonoGame and your contributions via social media!
 
 
+## Decompiler Tools
+
+This includes, but is not limited to tools like dotPeek, ILSpy, JustDecompiler, .NET Reflector, or any others which convert compiled assemblies back into readable code.
+
+There has been confusion on this point in the past, so we want to make this perfectly clear.  It is **NEVER ACCEPTABLE** to decompile any assemblies containing copyrighted code and submit that code to the MonoGame project.
+
+* It **DOES NOT** matter how much you change the code.
+* It **DOES NOT** matter what country you live in or what your local laws say.  
+* It **DOES NOT** matter that XNA is discontinued.  
+* It **DOES NOT** matter how small the bit of code you have stolen is.  
+* It **DOES NOT** matter what your opinion is of stealing code.
+
+If you did not write the code yourself, you do not have ownership of that code, and it should never be submitted to the MonoGame code base.
+
+If a contribution is found to be in violation of copyright it will be immediately removed and the contributor will be barred from future collaboration in the MonoGame project.
+
+
 ## Licensing
 
 The MonoGame project is under the [Microsoft Public License](https://opensource.org/licenses/MS-PL) with the exception of a few smaller sections of code.  See the [LICENSE.txt](LICENSE.txt) file for additional details.  Third-party libraries used by MonoGame are under their own licenses Please refer to those libraries for details on the license they use.
 
-We accept contributions in "good faith" that they are your own work and not bound to any conflicting license.  By submitting a PR you are agreeing to allow us to distribute your contribution under our license and the MonoGame Team copyright.  If a contribution is found to be in violation of copyright it will be immediately removed and the contributor may be barred from future collaboration in the project.
+We accept contributions in "good faith" that they are your own work and not bound to any conflicting license.  By submitting a PR you are agreeing to allow us to distribute your contribution under the MonoGame license and the MonoGame Team copyright.
 
-When submitting new files you should include the following copyright and license in the header when appropriate:
+To this end when submitting new files you should include the following copyright and license in the header when appropriate:
 ```
 // MonoGame - Copyright (C) The MonoGame Team
 // This file is subject to the terms and conditions defined in
