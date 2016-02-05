@@ -1,12 +1,11 @@
-Contributing to MonoGame
-========================
+# Contributing to MonoGame
 
 We're glad to that you have chosen to help out and contribute to the MonoGame project!
 
 The MonoGame Team has defined the simple guide below to help you as a new contributor to the project.  Please read this document carefully and try to conform to our process and guidelines as you help us improve and grow MonoGame.
 
-How To Contribute
-=================
+
+## How To Contribute
 
 MonoGame consists of a `master` branch with the latest stable releases and a `develop` branch with the day to day development changes. All new contributions and fixes should be directed to the `develop` branch.
 
@@ -16,8 +15,8 @@ After you submit a PR the [MonoGame build bot](https://github.com/mgbot?tab=acti
 
 Once we are satisfied that your changes are good for MonoGame it will be merged.
 
-Basic Guidelines
-================
+
+## Basic Guidelines
 
 Here are a few rules and suggestions to remember when contributing to MonoGame:
 
@@ -34,8 +33,7 @@ Here are a few rules and suggestions to remember when contributing to MonoGame:
 * **PLEASE** tell others about MonoGame and your contributions via social media!
 
 
-Licensing
-=========
+## Licensing
 
 The MonoGame project is under the [Microsoft Public License](https://opensource.org/licenses/MS-PL) with the exception of a few smaller sections of code.  See the [LICENSE.txt](LICENSE.txt) file for additional details.  Third-party libraries used by MonoGame are under their own licenses Please refer to those libraries for details on the license they use.
 
@@ -48,7 +46,6 @@ When submitting new files you should include the following copyright and license
 // file 'LICENSE.txt', which is part of this source code package.
 ```
 
-Need More Help?
-===============
+## Need More Help?
 
 If you need more help in building MonoGame, using Git or GitHub, or general development advice feel free to ask questions at either our [Community discussion forums](http://community.monogame.net/) or in our [live Gitter discussion](https://gitter.im/mono/MonoGame).
