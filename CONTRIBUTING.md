@@ -1,6 +1,6 @@
 # Contributing to MonoGame
 
-We're glad to that you have chosen to help out and contribute to the MonoGame project!
+We're glad that you have chosen to contribute to the MonoGame project!
 
 The MonoGame Team has defined the simple guide below to help you as a new contributor to the project.  Please read this document carefully and try to conform to our process and guidelines as you help us improve and grow MonoGame.
 
@@ -16,12 +16,12 @@ After you submit a PR the [MonoGame build bot](https://github.com/mgbot?tab=acti
 Once we are satisfied that your changes are good for MonoGame it will be merged.
 
 
-## Basic Guidelines
+## Quick Guidelines
 
-Here are a few rules and suggestions to remember when contributing to MonoGame:
+Here are a few simple rules and suggestions to remember when contributing to MonoGame:
 
-* **NEVER** commit code that you didn't personally write.
-* **NEVER** use decompiler tools to steal code implementations and submit them as your own work.
+* :bangbang: **NEVER** commit code that you didn't personally write.
+* :bangbang: **NEVER** use decompiler tools to steal code and submit them as your own work.
 * **PLEASE** try keep your PRs focused on a single topic and of a reasonable size or we may ask you to break it up.
 * **DO NOT** surprise us with new APIs or big new features. Open an issue to discuss your ideas first.
 * **DO NOT** reorder type members as it makes it very difficult to compare code changes in a PR.
@@ -29,7 +29,7 @@ Here are a few rules and suggestions to remember when contributing to MonoGame:
 * **DO** give priority to the existing style of the file you're changing even if it diverges from the style above.
 * **DO** try to add to our [unit tests](Test) when adding new features or fixing bugs.
 * **DO NOT** send PRs for code style changes or make code changes just for the sake of style.
-* **PLEASE** keep a civil and respectful tone when discussing contributions with others.
+* **PLEASE** keep a civil and respectful tone when discussing and reviewing contributions.
 * **PLEASE** tell others about MonoGame and your contributions via social media!
 
 
