@@ -1,42 +1,49 @@
-Guidelines
-==========
+Contributing to MonoGame
+========================
 
-When contributing to the MonoGame project, please follow the [MonoGame Coding Guidelines][].  We are working to introduce this coding style to the project.  Please make your pull requests conform to these guidelines.
+We're glad to that you have chosen to help out and contribute to the MonoGame project!  The MonoGame Team has defined the simple guide below to help you as a new contributor to the project.  Please read this document carefully and try to conform to our process and guidlines as you help us improve and grow MonoGame.
 
-[MonoGame Coding Guidelines]: https://github.com/mono/MonoGame/wiki/Coding-Guidelines
+How To Contribute
+=================
 
-Etiquette
+MonoGame consists of a `master` branch with the latest stable releases and a `develop` branch with the day to day development changes. All new contributions and fixes should be directed to the `develop` branch.
+
+The MonoGame project follows standard [GitHub flow](https://guides.github.com/introduction/flow/index.html).  You should learn and be familar with how to [use Git](https://help.github.com/articles/set-up-git/), how to [create a fork of MonoGame](https://help.github.com/articles/fork-a-repo/), and how to [submit a Pull Request](https://help.github.com/articles/using-pull-requests/).
+
+After you submit a PR the [MonoGame build bot](https://github.com/mgbot?tab=activity) will automatically build your changes and verify all unit tests pass.  One or more of the project maintaners and community members will review your changes and provide constructive feedback to improve your work.  Once we are satisfied that your changes are good for for MonoGame it will be merged.
+
+
+Basic Guidelines
+================
+
+* **NEVER** commit code that you didn't personally write.
+* **NEVER** use decompiler tools to steal code implementations and submit them as your own work.
+* **PLEASE** try keep your PRs focused on a single topic and of a reasonable size or we may ask you to break it up.
+* **DO NOT** surprise us with new APIs or big new features. Open an issue to discuss your ideas first.
+* **DO NOT** reorder type members as it makes it very difficult to compare code changes in a PR.
+* **DO** try to follow our [coding style](https://github.com/mono/MonoGame/wiki/Coding-Guidelines) for new code.
+* **DO** give priority to the existing style of the file you're changing even if it diverges from the style above.
+* **DO** try to add to our [unit tests](Test) when adding new features or fixing bugs.
+* **DO NOT** send PRs for code style changes or make code changes just for the sake of style.
+* **PLEASE** keep a civil and respectful tone when discussing contributions with others.
+* **PLEASE** tell others about MonoGame and your contributions via social media!
+
+
+Licensing
 =========
 
-In general, we do not accept pull requests that merely shuffle code around, split classes in multiple files, reindent the code or are the result of running a refactoring tool on the source code.  This is done for three reasons:
+The MonoGame project is under the [Microsoft Public License](https://opensource.org/licenses/MS-PL) with the exception of a few smaller sections of code.  See the [LICENSE.txt](LICENSE.txt) file for additional details.  Third-party libraries used by MonoGame are under their own licenses Please refer to those libraries for details on the license they use.
 
-* We have our own coding guidelines
-* Some modules are imported from upstream sources and we want to respect their coding guidelines
-* It destroys valuable history that is often used to investigate bugs, regressions and problems
+We accept contributions in "good faith" that they are your own work and not bound to any conflicting license.  By submitting a PR you are agreeing to allow us to distribute your contribution under our license and the MonoGame Team copyright.  If a contribution is ound to be in violation copyrights it will be immediately removed and the contributor may be banned from future collaboration in the project.
 
-License
-=======
+When submitting new files you should try to include the following header when appropriate:
+```
+// MonoGame - Copyright (C) The MonoGame Team
+// This file is subject to the terms and conditions defined in
+// file 'LICENSE.txt', which is part of this source code package.
+```
 
-The MonoGame project uses the Microsoft Public License.  See `LICENSE.txt` for more details.  Some third-party libraries used by MonoGame may be under a different license.  Please refer to those libraries for details on the license they use.
+Need More Help?
+===============
 
-Submitting Patches
-==================
-
-MonoGame consists of two primary branches:
-
-* `master` is the stable branch from which releases are made.  Pull requests direct to the master branch will not be accepted.
-* `develop` is the unstable development branch.  Pull requests must be made against the develop branch.
-
-The process for making a pull request is generally as follows:
-
-1. Make a feature branch from `develop` for the change.
-2. Edit, build and test the feature.
-3. Commit to your local repository.
-4. Push the feature branch to your GitHub fork.
-5. Create the pull request.
-
-If you need to make changes to the pull request, simply repeat steps 2-4.  Adding commits to that feature branch in your fork will automatically add the change to the pull request.
-
-The majority of code in MonoGame is cross-platform and must build and behave correctly on all supported platforms.  All pull requests to MonoGame are built using an automated system that compiles the pull request on all supported platforms and will report any build errors.
-
-Once a pull request has been accepted, your feature branch can be deleted if desired.
+If you need more help in building MonoGame, using Git or GitHub, or general development advice feel free to ask questions at either our [Community discussion forums](http://community.monogame.net/) or in our [live Gitter discussion](https://gitter.im/mono/MonoGame).
