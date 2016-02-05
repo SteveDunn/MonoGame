@@ -1,20 +1,25 @@
 Contributing to MonoGame
 ========================
 
-We're glad to that you have chosen to help out and contribute to the MonoGame project!  The MonoGame Team has defined the simple guide below to help you as a new contributor to the project.  Please read this document carefully and try to conform to our process and guidlines as you help us improve and grow MonoGame.
+We're glad to that you have chosen to help out and contribute to the MonoGame project!
+
+The MonoGame Team has defined the simple guide below to help you as a new contributor to the project.  Please read this document carefully and try to conform to our process and guidelines as you help us improve and grow MonoGame.
 
 How To Contribute
 =================
 
 MonoGame consists of a `master` branch with the latest stable releases and a `develop` branch with the day to day development changes. All new contributions and fixes should be directed to the `develop` branch.
 
-The MonoGame project follows standard [GitHub flow](https://guides.github.com/introduction/flow/index.html).  You should learn and be familar with how to [use Git](https://help.github.com/articles/set-up-git/), how to [create a fork of MonoGame](https://help.github.com/articles/fork-a-repo/), and how to [submit a Pull Request](https://help.github.com/articles/using-pull-requests/).
+The MonoGame project follows standard [GitHub flow](https://guides.github.com/introduction/flow/index.html).  You should learn and be familiar with how to [use Git](https://help.github.com/articles/set-up-git/), how to [create a fork of MonoGame](https://help.github.com/articles/fork-a-repo/), and how to [submit a Pull Request](https://help.github.com/articles/using-pull-requests/).
 
-After you submit a PR the [MonoGame build bot](https://github.com/mgbot?tab=activity) will automatically build your changes and verify all unit tests pass.  One or more of the project maintaners and community members will review your changes and provide constructive feedback to improve your work.  Once we are satisfied that your changes are good for for MonoGame it will be merged.
+After you submit a PR the [MonoGame build bot](https://github.com/mgbot?tab=activity) will automatically build your changes and verify all unit tests pass.  One or more of the project maintainers and other contributors will help review your changes and provide constructive feedback to improve your submission.
 
+Once we are satisfied that your changes are good for MonoGame it will be merged.
 
 Basic Guidelines
 ================
+
+Here are a few rules and suggestions to remember when contributing to MonoGame:
 
 * **NEVER** commit code that you didn't personally write.
 * **NEVER** use decompiler tools to steal code implementations and submit them as your own work.
@@ -34,9 +39,9 @@ Licensing
 
 The MonoGame project is under the [Microsoft Public License](https://opensource.org/licenses/MS-PL) with the exception of a few smaller sections of code.  See the [LICENSE.txt](LICENSE.txt) file for additional details.  Third-party libraries used by MonoGame are under their own licenses Please refer to those libraries for details on the license they use.
 
-We accept contributions in "good faith" that they are your own work and not bound to any conflicting license.  By submitting a PR you are agreeing to allow us to distribute your contribution under our license and the MonoGame Team copyright.  If a contribution is ound to be in violation copyrights it will be immediately removed and the contributor may be banned from future collaboration in the project.
+We accept contributions in "good faith" that they are your own work and not bound to any conflicting license.  By submitting a PR you are agreeing to allow us to distribute your contribution under our license and the MonoGame Team copyright.  If a contribution is found to be in violation copyright it will be immediately removed and the contributor may be banned from future collaboration in the project.
 
-When submitting new files you should try to include the following header when appropriate:
+When submitting new files you should include the following copyright and license in the header when appropriate:
 ```
 // MonoGame - Copyright (C) The MonoGame Team
 // This file is subject to the terms and conditions defined in
